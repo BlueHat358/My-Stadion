@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/marginBottomContent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/paddingParent"
+        android:background="@drawable/bgitemlist"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_launcher_background"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/imgImage_ItemList"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/marginLeftContent1"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvTitle_ItemList"
+                    android:textStyle="bold"
+                    android:text="Stadion Gelora Bandung Lautan Api"
+                    android:textSize="@dimen/boldSize"
+                    android:layout_marginBottom="@dimen/marginBottomContent"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvContent_ItemList"
+                    android:text="Lorem ipsum falksdjaweuioufa fasdkfjaweau falkehfioahiosef askejfoaiuseoifua fjalejoifhaosid jfasijofiajweof ajflksejf"
+                    android:maxLines="3"
+                    android:textSize="@dimen/normalSize"
+                    android:layout_marginBottom="@dimen/marginBottomContent"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

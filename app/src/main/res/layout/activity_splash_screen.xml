@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity"
+    android:background="#3077F4"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        >
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:lottie_rawRes="@raw/football"
+            app:lottie_autoPlay="true"
+            app:lottie_speed="0.8"
+            app:lottie_loop="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MyStadion"
+            android:textSize="@dimen/titleSize1"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#BBDAF6"
+            android:layout_marginTop="@dimen/marginTopContent"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
